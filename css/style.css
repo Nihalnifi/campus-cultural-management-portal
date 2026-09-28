@@ -1,0 +1,131 @@
+/* ------------------------ BODY & GENERAL ------------------------ */
+body {
+    font-family: Arial, sans-serif;
+    background: #446daa;
+    font-size: 18px;  /* Bigger default text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 36px;   /* Main title */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;   /* Subtitles / headings */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* ------------------------ CONTAINERS & CARDS ------------------------ */
+.container, .box, .dashboard {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.card {
+    background: #f7f4f4;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* ------------------------ BUTTONS & LINKS ------------------------ */
+a, button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 20px;   /* Big text for buttons */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a {
+    background: #007bff;
+    color: white;
+}
+
+a:hover {
+    background: #0056b3;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #1e7e34;
+}
+
+/* Logout button */
+.logout {
+    background: #dc3545 !important;
+}
+
+.logout:hover {
+    background: #a71d2a !important;
+}
+
+/* ------------------------ INPUT FIELDS ------------------------ */
+input, select {
+    padding: 12px;
+    font-size: 18px;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ------------------------ TABLES ------------------------ */
+table {
+    width: 100%;
+    border-collapse: separate;  /* important for spacing */
+    border-spacing: 15px 10px;  /* gap between rows & columns */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 18px;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+/* ------------------------ HEADER / PAGE TITLES ------------------------ */
+.header {
+    background: #343a40;
+    color: white;
+    padding: 15px;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* ------------------------ MISC ------------------------ */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msg {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
